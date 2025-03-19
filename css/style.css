@@ -1,0 +1,126 @@
+.profile{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid;
+    border-color: #182673
+}
+
+.subtitle{
+    color: #182673;
+    font-size: large;
+    margin: auto;
+    padding: 2%;
+}
+
+.title{
+    color: #26378F;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.text{
+    color: black;
+
+}
+
+.container{
+    background-color: #3F4E9B;
+    width: fit-content  ;
+    height: fit-content;
+    padding: 50px; 
+    border: 10px solid #182673;
+    box-sizing: content-box;
+    margin: 20px;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.container_perfil{
+    background-color: #8590CA;
+    width: 1500PX;
+    padding: 10px;
+    border: 5px solid #182673;
+    box-sizing: content-box;
+    margin: 10px;
+    border-radius: 30px;
+    align-items: start;
+    gap: 20px;
+}
+
+.container_data{
+    background-color: #8590CA;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border: 5px solid #182673;
+    box-sizing: content-box;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column ;
+    align-items: end; 
+    justify-content: center;
+}
+
+.container_skills{
+    background-color: #8590CA;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border: 5px solid #182673;
+    box-sizing: content-box;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.container_media{
+    background-color: #8590CA;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border: 5px solid #182673;
+    box-sizing: content-box;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+.container_estudios{
+    background-color: #8590CA;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border: 5px solid #182673;
+    box-sizing: content-box;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.container_english{
+    background-color: #8590CA;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border: 5px solid #182673;
+    box-sizing: content-box;
+    margin: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
