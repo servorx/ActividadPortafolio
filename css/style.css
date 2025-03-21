@@ -1,4 +1,26 @@
-.profile{
+*{
+    background-color: #000;
+}
+
+.container{
+    width: 80%; 
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.izquierda{
+    flex: 0 0 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+.img{
     object-fit: cover;
     width: 200px;
     height: 200px;
@@ -7,120 +29,224 @@
     border-color: #182673
 }
 
-.subtitle{
-    color: #182673;
-    text-align: left;
-    margin-top: 8%;
-    margin-right: 100%;
+.content-box{
+    background-color:#26378F    ;
+    width: 70%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: black;
     
 }
 
-.title{
-    color: #26378F;
+.content-box p {
+    color: black !important;
+    background-color: transparent
+}
+
+.content-box strong{
+    background-color: transparent;
+}
+
+.content-box a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.redes{
+    background-color:#26378F;
+    width: 70%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.redes p {
+    color: black;
+    background-color: transparent
+}
+
+.redes strong{
+    background-color: transparent;
+}
+
+.redes a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    display: block;
+}
+
+.redes img{
+    background-color: transparent;
+    display: block;
+}
+
+.derecha{
+    text-align: center;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    background-color: white;
+    flex: 60%;
     
-    padding: 10px;
+}
+.perfil{
+    background-color: #3F4E9B;
+    width: 50%;
+    padding: 45px;
+    margin-top: auto;
+    border-radius: 10px;
+    color: black;
+    margin-right: 50%;
+}
+
+.perfil p {
+    color: black !important;
+    background-color: transparent;
     text-align: center;
 }
 
-.text{
+.perfil strong{
+    background-color: transparent;
+}
+
+.perfil a{
+    background-color: transparent;
+    text-decoration: none;
     color: black;
-
 }
 
-.container{
+.perfil h2{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.estudios{
     background-color: #3F4E9B;
-    width: 80%;
-    padding: 50px; 
-    border: 10px solid #182673;
-    box-sizing: content-box;
-    margin: 0 auto;
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    justify-content: space-between;
+    width: 50%;
+    padding: 45px;
+    margin-top: auto;
+    border-radius: 10px;
+    color: black;
+    margin-right: 50%;
+    margin-top: 20px;
 }
 
-.container_data{
-    background-color: #8590CA;
+.estudios p {
+    color: black !important;
+    background-color: transparent;
+    text-align: center;
+}
+
+.estudios strong{
+    background-color: transparent; 
+}
+
+.estudios a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.estudios h2{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.tecnologia{
+    background-color: #3F4E9B;
+    width: 50%;
+    padding: 45px;
+    margin-top: auto;
+    border-radius: 10px;
+    color: black;
+    margin-right: 50%;
+    margin-top: 20px;
+}
+
+.tecnologia p {
+    color: black !important;
+    background-color: transparent;
+    text-align: center;
+}
+
+.tecnologia strong{
+    background-color: transparent;
+}
+
+.tecnologia a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.tecnologia h2{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.tecnologia img{
+    background-color: transparent;
+} 
+
+.ingles{
+    background-color: #26378F;
     width: 70%;
     padding: 20px;
-    border: 5px solid #182673;
     margin-top: 20px;
-    border-radius: 30px;
-    display: flex;
-    border-right: 90%;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
 }
 
-.container_perfil{
-    background-color: #8590CA;
-    width: 1500PX;
-    padding: 10px;
-    border: 5px solid #182673;
-    box-sizing: content-box;
-    margin: 10px;
-    border-radius: 30px;
-    align-items: start;
-    gap: 20px;
-    display: block;
+.ingles p {
+    color: black !important;
+    background-color: transparent
 }
 
-
-
-.container_skills{
-    background-color: #8590CA;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px;
-    border: 5px solid #182673;
-    box-sizing: content-box;
-    margin: 10px;
-    border-radius: 30px;
-    display: block;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
+.ingles strong{
+    background-color: transparent;
 }
 
-.container_media{
-    background-color: #8590CA;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px;
-    border: 5px solid #182673;
-    box-sizing: content-box;
-    margin: 10px;
-    border-radius: 30px;
-    display: block;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-}
-.container_estudios{
-    background-color: #8590CA;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px;
-    border: 5px solid #182673;
-    box-sizing: content-box;
-    margin: 10px;
-    border-radius: 30px;
-    display: block;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
+.ingles a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black
 }
 
-.container_english{
-    background-color: #8590CA;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px;
-    border: 5px solid #182673;
-    box-sizing: content-box;
-    margin: 20px;
-    border-radius: 30px;
-    display: block;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
+.spanish{
+    background-color: #26378F;
+    width: 70%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: black;
+    text-align: left;
+}
+
+.spanish p {
+    color: black !important;
+    background-color: transparent
+}
+
+.spanish strong{
+    background-color: transparent;
+}
+
+.spanish a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black
 }
